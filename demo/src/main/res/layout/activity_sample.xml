@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin">
+
+
+            <com.zpj.widget.checkbox.ZCheckBox
+                android:id="@+id/scb"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                app:z_checkbox_checked_color="@color/colorAccent"
+                />
+
+            <com.zpj.widget.checkbox.ZCheckBox
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                app:z_checkbox_checked_color="#447eeb"
+                />
+
+            <com.zpj.widget.checkbox.ZCheckBox
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                app:z_checkbox_checked_color="#149A45"
+                />
+
+            <com.zpj.widget.checkbox.ZCheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                />
+
+
+        </LinearLayout>
+
+        <com.zpj.widget.checkbox.ZCheckBox
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            app:z_checkbox_unchecked_color="@color/colorAccent"
+            app:z_checkbox_border_color="@color/colorPrimaryDark"
+            app:z_checkbox_checked_color="#000"
+            app:z_checkbox_tick_color="#447eeb"
+            />
+
+        <com.zpj.widget.checkbox.ZCheckBox
+            android:id="@+id/check_box"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:paddingHorizontal="8dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="30dp"
+            app:z_checkbox_border_size="10dp"
+            app:z_checkbox_tick_size="10dp"
+            />
+
+    </LinearLayout>
+
+
+</ScrollView>
